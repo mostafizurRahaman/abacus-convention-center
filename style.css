@@ -1,0 +1,61 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+      background-color: #000;
+      border-radius: 50%;
+      padding: 10px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      background-size: 20px 20px;
+}
+
+/* #blog-feature button{
+   border-radius: 0;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
+} */
+#package-section .card .list-group-item{
+   border: none!important;
+}
+.list-group-item .fa-circle-check{
+  color: #766db379;
+}
+#pacakage-section .card{
+   transition: all ease-in-out;
+   -webkit-transition: all ease-in-out;
+   -moz-transition: all ease-in-out;
+   -ms-transition: all ease-in-out;
+   -o-transition: all ease-in-out;
+}
+#package-section .card:hover{
+   background:url(img/pakage-bg.png) no-repeat;
+   background-position: center right; 
+   color: #fff;
+   background-size: cover;
+}
+#package-section .card:hover .list-group-item,
+#package-section .card:hover .list-group-item .fa-circle-check{
+   color: #fff!important;
+   
+}
+#package-section .card:hover button{
+   background:  #fff!important;
+   border: none !important;   
+}
+.active-pacakge {
+   background:url(img/pakage-bg.png) no-repeat;
+   background-position: center right; 
+   color: #fff;
+   background-size: cover;
+}
+.active-pacakge .list-group-item,
+.active-pacakge .list-group-item .fa-circle-check{
+   color: #fff!important;
+}
+.active-pacakge button{
+   background:  #fff!important;
+   border: none !important; 
+}
